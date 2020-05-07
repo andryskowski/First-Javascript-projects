@@ -1,0 +1,49 @@
+body{
+min-height:100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.images{
+background: url('img/01.png')center/cover
+no-repeat;
+flex: 0 0 80%;
+min-height: 70vh;
+min-width:75vh;
+font-family: 'Arial';
+margin: 0 auto;
+position: relative;
+
+}
+
+.prvBtn {
+  background: rgba(0, 0, 0, 0);
+  border: solid rgb(206, 206, 206,0.5);
+  border-width: 0 10px 10px 0;
+  padding: 20px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  position: absolute;
+  top: 50vh;
+  left: 55vh;
+  cursor: pointer;
+	outline: none;
+}
+
+.nxtBtn {
+  background: rgba(0, 0, 0, 0);
+  border: solid rgb(206, 206, 206,0.5);
+  border-width: 0 10px 10px 0;
+  padding: 20px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: absolute;
+  top: 50vh;
+  right: 55vh;
+  cursor: pointer;
+	outline: none;
+
+}
+

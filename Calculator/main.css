@@ -1,0 +1,34 @@
+body{
+  background-color: #7FDBFF;
+  font-family: 'Verdana';
+}
+
+.Calculator{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 97.5vh;
+    flex-direction: column;
+}
+
+.Buttons{
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.5s linear;
+
+
+}
+
+button{
+  flex: 0 0 25%;
+}
+
+.Screen{
+font-size:3vh;
+background-color:#FF851B;
+opacity: 85%;
+width:53.5vh;
+min-height: 3.6vh;
+text-align: right;
+text-color: white;
+}
